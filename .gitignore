@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Environment & Secrets
+.env
+.env.*
+*.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# API Keys & Credentials
+*_api_key*
+*_secret*
+*.key
+*.pem
+*.cert
+credentials.json
+service-account*.json
+gcp-key.json
+firebase-config.json
+
+# Hartford specific
+hartford_agent/.env
+hartford_agent/*.env
+rally_config.json
+github_token.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ADK
+.adk/
+adk_output/
+
+# Memory/Cache
+*.db
+*.sqlite
+redis-data/
+cache/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+.temp/
+
+# Cloud provider configs
+.gcloud/
+.aws/
+.azure/
+
+# Sensitive data
+*.password
+*.token
+config/secrets/
+keys/
